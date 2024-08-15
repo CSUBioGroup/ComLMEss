@@ -22,7 +22,7 @@ After making sure that the features extracted by OntoProtein, ProtTrans, ESMFfol
 
 ```bash
 python train.py
-``
+```
 
 ## How to  use your own data
 First, you need to store your extracted feature files in the `/data` folder.
