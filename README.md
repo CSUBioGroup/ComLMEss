@@ -13,6 +13,10 @@ This repository contains the PyTorch implementation of ComLMEss.
 
 # Usage
 
+## Data
+
+The train and test data, which contain different protein information extracted by OntoProtein, ProtTrans, and ESMFold, can be downloaded from ..path..
+
 ## Simple usage
 After making sure that the features extracted by OntoProtein, ProtTrans, ESMFfold are in */data* folder, you can train the model in a very simple way by the command blow:
 ``python train.py ``
@@ -43,7 +47,7 @@ With the data ready, you can train your own model by modifying the *class Defaul
 Then, you can train the model by executing the following command:
 ``python train.py ``
 
-The train and test data, which contain different protein information extracted by OntoProtein, ProtTrans, and ESMFold, can be downloaded from ..path..
+
 
 ## Other details
 The other details can be seen in the paper and the codes.
