@@ -18,19 +18,19 @@ This repository contains the PyTorch implementation of ComLMEss.
 The train and test data, which contain different protein information extracted by OntoProtein, ProtTrans, and ESMFold, can be downloaded from ..path..
 
 ## Simple usage
-After making sure that the features extracted by OntoProtein, ProtTrans, ESMFfold are in **/data** folder, you can train the model in a very simple way by the command blow:
+After making sure that the features extracted by OntoProtein, ProtTrans, ESMFfold are in ***/data*** folder, you can train the model in a very simple way by the command blow:
 
 ``python train.py ``
 
 ## How to  use your own data
-First, you need to store your extracted feature files in the **/data** folder.
+First, you need to store your extracted feature files in the ***/data*** folder.
 
-Second, you need to modify the function **load_feature** and **load_all_features** in the **utils.py** file.
+Second, you need to modify the function ***load_feature*** and ***load_all_features*** in the ***utils.py*** file.
 
 ## How to train your own model
-With the data ready, you can train your own model by modifying the **class DefaultConfig** in the **utils.py** file.
+With the data ready, you can train your own model by modifying the ***class DefaultConfig*** in the ***utils.py*** file.
 
->In the **class DefaultConfig**, the meaning of the variables is explained as follows:
+>In the ***class DefaultConfig***, the meaning of the variables is explained as follows:
 >>***seed*** is The random seed used to ensure reproducibility of the results. 
 >>***kfold*** is the number of folds in cross-validation.  
 >>***patience*** is the number of epochs with no improvement after which training will be stopped.  
