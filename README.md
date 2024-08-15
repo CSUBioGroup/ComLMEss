@@ -29,6 +29,10 @@ First, you need to store your extracted feature files in the `/data` folder.
 
 Second, you need to modify the function `load_feature` and `load_all_features` in the `utils.py` file.
 
+```python
+path = 'data/final_' + feature + '_data1.pkl'
+```
+
 ## How to train your own model
 With the data ready, you can train your own model by modifying the `class DefaultConfig` in the `utils.py` file.
 
@@ -48,7 +52,9 @@ With the data ready, you can train your own model by modifying the `class Defaul
 >>***T*** is the cycle length for cosine annealing in the learning rate schedule.
 
 Then, you can train the model by executing the following command:
-``python train.py ``
+```bash
+python train.py
+```
 
 
 
