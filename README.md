@@ -1,7 +1,7 @@
 # ComLMEss_private
 An Deep Learning Model For Predicting Essential Protein Task
 
-This repository contains the PyTorch implementation of 论文名.
+This repository contains the PyTorch implementation of ComLMEss.
 
 # Requirements
 
