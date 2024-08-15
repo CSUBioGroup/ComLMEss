@@ -4,10 +4,10 @@ An Deep Learning Model For Predicting Essential Protein Task
 This repository contains the PyTorch implementation of ComLMEss.
 
 # Requirements
-  python==3.9.19
-  torch==1.12.1
-  numpy==1.26.4
-  scikit-learn==1.4.2
+    python==3.9.19
+    torch==1.12.1
+    numpy==1.26.4
+    scikit-learn==1.4.2
 
 
 # Usage
