@@ -19,6 +19,7 @@ The train and test data, which contain different protein information extracted b
 
 ## Simple usage
 After making sure that the features extracted by OntoProtein, ProtTrans, ESMFfold are in */data* folder, you can train the model in a very simple way by the command blow:
+
 ``python train.py ``
 
 ## How to  use your own data
