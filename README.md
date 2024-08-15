@@ -22,7 +22,7 @@ After making sure that the features extracted by OntoProtein, ProtTrans, ESMFfol
 
 ```bash
 python train.py
-```
+``
 
 ## How to  use your own data
 First, you need to store your extracted feature files in the `/data` folder.
@@ -32,6 +32,7 @@ Second, you need to modify the function `load_feature` and `load_all_features` i
 ```python
 path = 'data/final_' + feature + '_data1.pkl'
 ```
+- the `feature` is the type of feature you extracted, e.g. onto,prot,esm
 
 ## How to train your own model
 With the data ready, you can train your own model by modifying the `class DefaultConfig` in the `utils.py` file.
