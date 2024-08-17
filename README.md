@@ -15,7 +15,7 @@ This repository contains the PyTorch implementation of ComLMEss.
 
 ## Data
 
-The train and test data, which contain different protein information extracted by OntoProtein, ProtTrans, and ESMFold, can be downloaded at https://pan.baidu.com/s/1AP51nx0PQztZH_h5KJPizA (access code: ComL)
+The train and test data, which contain different protein information extracted by OntoProtein, ProtTrans, and ESMFold, and 5 trained models can be downloaded at https://pan.baidu.com/s/11b2FVDTGqmBmW2Z4piU_Bg (access code: ComL)
 
 
 ## Simple usage
